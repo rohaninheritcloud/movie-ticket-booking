@@ -1,0 +1,44 @@
+*{
+    overflow: auto;
+}
+
+.cont{
+    background-image: url("https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?w=1380&t=st=1693480596~exp=1693481196~hmac=39283c97ba6d46fca51735bbc141ad8b9147b2d93c86857c0682c27019132b6e");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    color: white;
+}
+.box{
+    background-color: blue;
+    width: 50px;
+    margin: 10px;
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highlight{
+    background-color: white;
+    color: black;
+}
+.highlight:hover{
+    background-color: burlywood;
+    color: black;
+}
+.none{
+    display: none;
+    visibility: hidden;
+}
+.enterDetails{
+    display: flex;
+}

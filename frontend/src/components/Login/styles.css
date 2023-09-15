@@ -1,0 +1,70 @@
+.form-container{
+    background-color: rgb(60, 55, 55);
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+button{
+    cursor: pointer;
+    background-color: beige;
+    border-radius: 8px;
+    background: transparent;
+    color: beige;
+    width: 60px;
+    height: 30px;
+}
+button:hover{
+    color: bisque;
+    background-color: black;
+}
+input{
+    margin: 10px;
+    background-color: rgb(101, 92, 92);
+    border-radius: 5px;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    font-size: Roboto;
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+}
+.icon{
+    padding: 10px;
+}
+.input-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+   
+}
+.login-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW92aWUlMjB0aWNrZXRzfGVufDB8fDB8fHww&w=1000&q=80");
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 36px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    font-size: 22px;
+    text-align: center;
+}

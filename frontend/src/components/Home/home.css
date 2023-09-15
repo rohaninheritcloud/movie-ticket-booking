@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?w=1380&t=st=1693480596~exp=1693481196~hmac=39283c97ba6d46fca51735bbc141ad8b9147b2d93c86857c0682c27019132b6e");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main{
+    height: 100vh;
+    background-image: "https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?w=1380&t=st=1693480596~exp=1693481196~hmac=39283c97ba6d46fca51735bbc141ad8b9147b2d93c86857c0682c27019132b6e";
+    height: 100vh;
+
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+img{
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 14px;
+}
+.screen1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.screen2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}
+button{
+    margin: 12px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}

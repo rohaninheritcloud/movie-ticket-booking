@@ -1,0 +1,16 @@
+.containerr{
+    background-image: url("https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?w=1380&t=st=1693480596~exp=1693481196~hmac=39283c97ba6d46fca51735bbc141ad8b9147b2d93c86857c0682c27019132b6e");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+}
+h1{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 30px;
+}
+img{
+    margin: 12px ;
+}
